@@ -1,0 +1,153 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{authblk}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\renewcommand\Authfont{\fontsize{12}{14.4}\selectfont}
+\renewcommand\Affilfont{\fontsize{10}{10.8}\itshape}
+
+
+%% Target journal:
+%
+%
+% 
+
+%% Potential reviewers:
+%
+%
+%
+
+
+\begin{document}
+
+\setcounter{page}{1}
+
+\title{Title}
+
+\author[a]{First Author}
+\author[b]{Second Author}
+\author[b]{Third Author}
+
+\affil[a]{Department of ...}
+\affil[b]{Department of ...}
+
+\maketitle
+
+\noindent \textbf{Corresponding author}:  email@tulane.edu \\
+
+
+\thispagestyle{empty}
+
+\setstretch{1.3}
+\vspace{-1cm}
+
+
+
+\clearpage
+
+
+
+
+
+\thispagestyle{fancy}
+\subsection*{Abstract}
+
+Abstract goes here...
+
+
+\paragraph*{}
+\noindent \textbf{Keywords}: ...  \\ 
+
+
+
+
+
+
+
+\clearpage
+
+\subsection*{Introduction}
+
+Introduction goes here...
+
+% ----- 
+\subsection*{Methods}
+
+Methods go here...
+
+% ----- 
+\subsection*{Results}
+
+Results go here...
+
+% -----
+\subsection*{Discussion}
+
+Discussion goes here...
+
+
+
+
+
+
+
+
+\clearpage
+
+\section*{Declarations}
+
+\subsection*{Funding}
+Statement on funding goes here...
+
+\subsubsection*{Conflicts of interest}
+Conflicts of interest go here...
+
+\subsubsection*{Availability of data and material}
+All data to reproduce these analyses is available at \\
+(put link here)
+
+\subsubsection*{Code availability}
+All code to reproduce these analyses is available at \\
+(put link here)
+
+
+
+\clearpage
+\bibliography{bib}
+\bibliographystyle{apa}
+
+\clearpage
+
+
+\section*{Tables}
+
+\clearpage
+
+\section*{Figures}
+
+
+
+
+
+%--- Supplement ---
+
+\clearpage
+\newcommand{\beginsupplement}{%
+        \setcounter{page}{1}
+        \setcounter{table}{0}
+        \renewcommand{\thetable}{S\arabic{table}}%
+        \setcounter{figure}{0}
+        \renewcommand{\thefigure}{S\arabic{figure}}%
+        }
+
+\section*{Supplemental Material}
+
+\beginsupplement
+
+
+\end{document}
+
