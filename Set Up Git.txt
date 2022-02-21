@@ -1,0 +1,25 @@
+Set Up Git: 
+git config --global user.name "Your Name" 
+git config --global user.email "youremail@domain.com" 
+
+Other command:
+git clone (url)
+* make a copy of your folder on GitHub note that when it has url you should copy and paste the url on the website
+without the parentheses ex: git clone https://github.com/mondrinosLab/labLogistics.git
+may need to clone to get most up to date file
+
+git add (file names) 
+*when you want to add or update a file 
+ex: git add "Set Up Git".txt
+
+git commit -m "(committed message) file names
+*are you sure you want to upload to the folder
+ex:git commit -m "GitHub Commands" "Set Up Git".txt
+
+	git status will tell you if your file has uploaded yet
+
+git push -u origin main 
+*finally uploaded that ish
+
+git remote add origin main (url)
+*didn't make it that far in the video for this
